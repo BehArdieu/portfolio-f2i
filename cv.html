@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" class="sr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Importing CSS   -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Importing Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- IMPORTING JS -->
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
+
+    <title>B-Folio</title>
+</head>
+
+<body id="cv">
+
+    <nav class="my_navbar">
+        <div class="logo">
+            <a href="./index.html">
+                <img src="./img/logo.png" class="nav_child" width="200" height="200" alt="logo">
+            </a>
+        </div>
+        <div class="my_links widget-list">
+            <a data-active="presentation" href="./presentation.html" class="nav_child widget">Présentation</a>
+            <a data-active="cv" href="./cv.html" class="nav_child widget">Mon CV</a>
+            <a data-active="competences" href="./competences.html" class="nav_child widget">Mes compétences</a>
+            <a data-active="projets" href="./projets.html" class="nav_child widget">Mes Projets</a>
+            <a data-active="contact" href="./contact.html" class="nav_child widget">Contact</a>
+        </div>
+    </nav>
+
+
+    <div class="content load-hidden">
+        <center>
+            <h1>CV</h1>
+        </center>
+        <embed class="pdf_page" src="./assets/ComlanBehArdieu_ALOTIN_CV.pdf" width="1200" height="1000" type="application/pdf"/>
+        <a href="./assets/ComlanBehArdieu_ALOTIN_CV.pdf" class="btn_download btn-primary pdf_page_button">Télécharger mon CV</a>
+    </div>
+
+    <div class="copyright">
+        <p>Copyright © 2022 B-Folio. Tous droits réservés.</p>
+    </div>
+
+
+    <script type="text/javascript" src="./js/links-activation.js"></script>
+</body>
+
+</html>

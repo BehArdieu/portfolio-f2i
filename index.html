@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" class="sr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Importing CSS   -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Importing Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- IMPORTING JS -->
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
+
+    <title>B-Folio</title>
+</head>
+
+<body id="home" class="container">
+
+    <nav class="my_navbar navigation">
+        <div class="logo">
+            <a href="./index.html">
+                <img src="./img/logo.png" class="nav_child" width="200" height="200" alt="logo">
+            </a>
+        </div>
+        <div class="my_links widget-list">
+            <a data-active="presentation" href="./presentation.html" class="nav_child widget">Présentation</a>
+            <a data-active="cv" href="./cv.html" class="nav_child widget">Mon CV</a>
+            <a data-active="competences" href="./competences.html" class="nav_child widget">Mes compétences</a>
+            <a data-active="projets" href="./projets.html" class="nav_child widget">Mes Projets</a>
+            <a data-active="contact" href="./contact.html" class="nav_child widget">Contact</a>
+        </div>
+    </nav>
+
+
+    <div class="content main load-hidden">
+        <section class="banner" id="banner">
+            <div class="content">
+                <div class="imgBx">
+                    <img src="./img/beh.jpg">
+                </div>
+                <h3>C. Beh Ardieu ALOTIN</h3>
+                <p>Je suis un développeur Web et Mobile hyper-créatif</p>
+                <a href="./assets/ComlanBehArdieu_ALOTIN_CV.pdf" class="btn_download btn-primary">Télécharger mon CV</a>
+                <ul class="socialMedia">
+                    <li><a href="https://github.com/BehArdieu"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/beh-ardieu-alotin-30086818b/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </section>
+
+        <div class="description">
+            <span class="hello_message">Salut ici,</span>
+            <p>
+            <h1 class="my_name">Moi, c'est Beh Ardieu ALOTIN</h1>
+            <h2 class="my_profession">Développeur Web et Mobile</h2>
+            <div class="row_with_icon">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <span class="row_text">5 Place Roger Salengro, Garges Les Gonesse</span>
+            </div>
+            <div class="row_with_icon">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <span class="row_text">06 05 67 83 23</span>
+
+            </div>
+            <div class="row_with_icon">
+                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                <span class="row_text">alotinbehardieu@gmail.com</span>
+            </div>
+
+            </p>
+        </div>
+    </div>
+
+
+    <div class="copyright">
+        <p>Copyright © 2022 B-Folio. Tous droits réservés.</p>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript" src="./js/animation.js"></script>
+    <script type="text/javascript" src="./js/links-activation.js"></script>
+</body>
+
+</html>
